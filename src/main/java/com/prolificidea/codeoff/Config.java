@@ -1,8 +1,15 @@
 package com.prolificidea.codeoff;
 
-public class Config {
+import java.awt.GraphicsEnvironment;
 
-    public static int SCREEN_SIZE = 700;
-    public static int FONT_SIZE = 16;
+import com.prolificidea.codeoff.themes.Theme;
+
+public interface Config {
+
+    
+    int SCREEN_SIZE_HEIGHT = GraphicsEnvironment.getLocalGraphicsEnvironment().getDefaultScreenDevice().getDisplayMode().getHeight();
+    int SCREEN_SIZE_WIDTH = GraphicsEnvironment.getLocalGraphicsEnvironment().getDefaultScreenDevice().getDisplayMode().getWidth();
+    int FONT_SIZE = 20;
+    Theme THEME = Theme.PLAIN_MATRIX;
 
 }
