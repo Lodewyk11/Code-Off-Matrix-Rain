@@ -6,4 +6,4 @@ Lodewyk van der Merwe
 # Changes
 - Fixed the bug that would not create a black backgound. 
 - Changed the colours to be classic Matrix colours. 
-- ![Chuck Norris jokes](http://www.icndb.com/api/ "Chuck norris jokes")jokes are used to populate the text matrix. 
+- ![Chuck Norris jokes](http://www.icndb.com/api/ "Chuck norris jokes") are used to populate the text matrix. 
